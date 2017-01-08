@@ -3,7 +3,7 @@ html{
   font-size: 100%;
   font-family: "mainFont";
   overflow-y: scroll;;
-  -ms-text-size-adjust: 90%;
+  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -279,7 +279,7 @@ body {
     }
 
     footer {
-      font-size: 1.75vh;
+      font-size: 2vh;
       width: 100%;
       text-align: center;
       color: rgba(255, 255, 255, 0.8);
