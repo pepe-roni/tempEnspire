@@ -5,22 +5,31 @@ html{
   overflow-y: scroll;;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 @font-face {
   font-family: "mainFont";
-  src:url("../fonts/Roboto-ThinItalic.ttf");
+  src:url("../fonts/Roboto-LightItalic.ttf");
+  /*Freeware*/
 }
 
 @font-face {
   font-family: "secFont";
-  src:url("../fonts/Roboto-LightItalic.ttf");
+  src:url("../fonts/Roboto-ThinItalic.ttf");
+}
+
+@font-face {
+  font-family: "iconFont";
+  src:url(../fonts/icon/);
 }
 
 body {
+  color: #000000;
   margin: 0;
+  height: 100%;
   width: 100%;
-  font-weight: 590;
+  font-weight: 500;
   font-style: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -157,12 +166,13 @@ body {
 
 
     a {
-  color: #98DAEE;
+      font-weight: 700;
+  color: #e35555;
   -webkit-transition: color 0.7s ease;
   -moz-transition: color 0.7s ease;
   transition: color 0.7s ease; }
   a:hover {
-    color: #e35555;
+    color: #80d3ed;
     -webkit-transition: color 0.7s ease;
     -moz-transition: color 0.7s ease;
     transition: color 0.7s ease; }
@@ -186,10 +196,10 @@ body {
   .sect-banner {
     display: table;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 ;
     text-align: center;
     height: 100vh;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255,255,255, 1);
   }
 /* Animation stuff idk from Stephen Scaff */
   .sect-banner:after
@@ -200,7 +210,7 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(118, 144, 164, 0.4);
+  background: rgba(118, 144, 164, 0.6);
   z-index: 0; }
 .sect-banner .v-center {
   position: relative;
@@ -220,7 +230,7 @@ body {
   }
   .sect-banner .v-center p {
     line-height: 2;
-    font-size: 2.8vh;
+    font-size: 2.5vh;
     -webkit-animation: fade-in ease-in-out 2s 1s both;
     -moz-animation: fade-in ease-in-out 2s 1s both;
     animation: fade-in ease-in-out 2s 1s both; }
