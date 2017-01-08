@@ -1,0 +1,293 @@
+
+html{
+  font-size: 90%;
+  font-family: "mainFont";
+  overflow-y: auto;
+  -ms-text-size-adjust: 90%;
+  -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family: "mainFont";
+  src:url("../fonts/Roboto-LightItalic.ttf");
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  font-weight: 500;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html, body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+a {
+  background-color: transparent;
+  outline: 0;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+body {
+  font-size: 100%;
+}
+  @media (min-width: 36em)
+  {
+    body {
+      font-size: 110%; }
+    }
+  @media (min-width: 58em) {
+    body {
+      font-size: 120%; }
+    }
+  @media (min-width: 86em) {
+    body {
+      font-size: 130%; }
+    }
+  @media (min-width: 115em) {
+    body {
+      font-size: 160%; }
+    }
+  @media (min-width: 125em) {
+    body {
+      font-size: 170%; }
+    }
+  @media (min-width: 145em) {
+    body {
+      font-size: 180%; }
+    }
+
+    a {
+  color: #98DAEE;
+  -webkit-transition: color 0.7s ease;
+  -moz-transition: color 0.7s ease;
+  transition: color 0.7s ease; }
+  a:hover {
+    color: #56c2e3;
+    -webkit-transition: color 0.7s ease;
+    -moz-transition: color 0.7s ease;
+    transition: color 0.7s ease; }
+
+    *, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+  width: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #590821; }
+
+body {
+  -webkit-animation: fade-in ease-in-out 1.4s;
+  -moz-animation: fade-in ease-in-out 1.4s;
+  animation: fade-in ease-in-out 1.4s; }
+
+  .sect-banner {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.9);
+  }
+/* Animation stuff idk from Stephen Scaff */
+  .sect-banner:after
+  {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(118, 144, 164, 0.4);
+  z-index: 0; }
+.sect-banner .v-center {
+  position: relative;
+  z-index: 2; }
+.sect-banner .v-center {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  z-index: 4;
+  padding: 0 5%;
+}
+  .sect-banner .v-center h1 {
+    font-size: 150%;
+    -webkit-animation: fade-in ease-in-out 2s 0.5s both;
+    -moz-animation: fade-in ease-in-out 2s 0.5s both;
+    animation: fade-in ease-in-out 2s 0.5s both;
+  }
+  .sect-banner .v-center p {
+    font-size: 120%;
+    -webkit-animation: fade-in ease-in-out 2s 1s both;
+    -moz-animation: fade-in ease-in-out 2s 1s both;
+    animation: fade-in ease-in-out 2s 1s both; }
+.sect-banner ul.kf-slider li {
+  height: 100% !important;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  z-index: 0;
+  opacity: 0;
+  -webkit-animation: fade-out 9s infinite both;
+  -moz-animation: fade-out 9s infinite both;
+  animation: fade-out 9s infinite both;
+  background-image: url(../images/banner-1-sm.jpg); }
+  @media (min-width: 58em) {
+    .sect-banner ul.kf-slider li {
+      background-image: url(../images/banner-1.jpg); } }
+.sect-banner ul.kf-slider li:nth-child(2) {
+  background-image: url(../images/banner-2-sm.jpg);
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s; }
+  @media (min-width: 58em) {
+    .sect-banner ul.kf-slider li:nth-child(2) {
+      background-image: url(../images/banner-2.jpg); } }
+.sect-banner ul.kf-slider li:nth-child(3) {
+  background-image: url(../images/banner-3-sm.jpg);
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  animation-delay: 6s; }
+  @media (min-width: 58em) {
+    .sect-banner ul.kf-slider li:nth-child(3) {
+      background-image: url(../images/banner-3.jpg); } }
+.sect-banner .banner-bg {
+  height: 100% !important;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  z-index: 0;
+  background-image: url(../images/banner-1-sm.jpg);
+  -webkit-animation: slider-sm ease-in-out 30s both infinite;
+  -moz-animation: slider-sm ease-in-out 30s both infinite;
+  animation: slider-sm ease-in-out 30s both infinite; }
+  @media (min-width: 58em) {
+    .sect-banner .banner-bg {
+      background-image: url(../images/banner-1.jpg);
+      -webkit-animation: slider-lg ease-in-out 30s both infinite;
+      -moz-animation: slider-lg ease-in-out 30s both infinite;
+      animation: slider-lg ease-in-out 30s both infinite; }
+    }
+
+    footer {
+      width: 100%;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.8);
+      position: fixed;
+      z-index: 8;
+      bottom: 1em;
+    }
+
+      @-webkit-keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+    @-webkit-keyframes fade-out {
+    33% {
+      opacity: 1; }
+    66% {
+      opacity: 0; } }
+  @-moz-keyframes fade-out {
+    33% {
+      opacity: 1; }
+    66% {
+      opacity: 0; } }
+  @keyframes fade-out {
+    33% {
+      opacity: 1; }
+    66% {
+      opacity: 0; } }
+
+      @-webkit-keyframes slider-sm {
+        0% {
+          background-image: url(../images/banner-1-sm.jpg); }
+        33% {
+          background-image: url(../images/banner-2-sm.jpg); }
+        66% {
+          background-image: url(../images/banner-3-sm.jpg); }
+        100% {
+          background-image: url(../images/banner-1-sm.jpg); } }
+      @-moz-keyframes slider-sm {
+        0% {
+          background-image: url(../images/banner-1-sm.jpg); }
+        33% {
+          background-image: url(../images/banner-2-sm.jpg); }
+        66% {
+          background-image: url(../images/banner-3-sm.jpg); }
+        100% {
+          background-image: url(../images/banner-1-sm.jpg); } }
+      @keyframes slider-sm {
+        0% {
+          background-image: url(../images/banner-1-sm.jpg); }
+        33% {
+          background-image: url(../images/banner-2-sm.jpg); }
+        66% {
+          background-image: url(../images/banner-3-sm.jpg); }
+        100% {
+          background-image: url(../images/banner-1-sm.jpg); } }
+      /*----------------------------------------------
+      --Keyframes Slider - Lg
+      -----------------------------------------------  */
+      @-webkit-keyframes slider-lg {
+        0% {
+          background-image: url(../images/banner-1.jpg); }
+        33% {
+          background-image: url(../images/banner-2.jpg); }
+        66% {
+          background-image: url(../images/banner-3.jpg); }
+        100% {
+          background-image: url(../images/banner-1.jpg); } }
+      @-moz-keyframes slider-lg {
+        0% {
+          background-image: url(../images/banner-1.jpg); }
+        33% {
+          background-image: url(../images/banner-2.jpg); }
+        66% {
+          background-image: url(../images/banner-3.jpg); }
+        100% {
+          background-image: url(../images/banner-1.jpg); } }
+      @keyframes slider-lg {
+        0% {
+          background-image: url(../images/banner-1.jpg); }
+        33% {
+          background-image: url(../images/banner-2.jpg); }
+        66% {
+          background-image: url(../images/banner-3.jpg); }
+        100% {
+          background-image: url(../images/banner-1.jpg); } }
