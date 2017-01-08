@@ -164,15 +164,18 @@ body {
       font-size: 180%; }
     }
 
-
+/*
+#e35555 red
+#eddd2d yellow
+*/
     a {
       font-weight: 700;
-  color: #e35555;
+  color: #eddd2d;
   -webkit-transition: color 0.7s ease;
   -moz-transition: color 0.7s ease;
   transition: color 0.7s ease; }
   a:hover {
-    color: #80d3ed;
+    color: #910103;
     -webkit-transition: color 0.7s ease;
     -moz-transition: color 0.7s ease;
     transition: color 0.7s ease; }
