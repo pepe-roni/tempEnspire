@@ -1,6 +1,6 @@
 
 html{
-  font-size: 90%;
+  font-size: 100%;
   font-family: "mainFont";
   overflow-y: scroll;;
   -ms-text-size-adjust: 90%;
@@ -9,6 +9,11 @@ html{
 
 @font-face {
   font-family: "mainFont";
+  src:url("../fonts/Roboto-ThinItalic.ttf");
+}
+
+@font-face {
+  font-family: "secFont";
   src:url("../fonts/Roboto-LightItalic.ttf");
 }
 
@@ -59,9 +64,7 @@ summary {
     abbr[title] {
       border-bottom: 1px dotted; }
 
-    b,
-    strong {
-      font-weight: bold; }
+
 
     dfn {
       font-style: italic; }
@@ -98,10 +101,12 @@ a {
   text-decoration: none;
 }
 
+
 a:active,
 a:hover {
   outline: 0;
 }
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -149,6 +154,7 @@ body {
     body {
       font-size: 180%; }
     }
+
 
     a {
   color: #98DAEE;
@@ -213,8 +219,8 @@ body {
     animation: fade-in ease-in-out 2s 0.5s both;
   }
   .sect-banner .v-center p {
-    line-height: 1.5;
-    font-size: 3vh;
+    line-height: 2;
+    font-size: 2.8vh;
     -webkit-animation: fade-in ease-in-out 2s 1s both;
     -moz-animation: fade-in ease-in-out 2s 1s both;
     animation: fade-in ease-in-out 2s 1s both; }
