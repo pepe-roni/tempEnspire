@@ -57,7 +57,7 @@ nav {
 nav > ul {
   width: 11vh;
   height: 5vh;
-  
+
   list-style: none;
   padding: 0;
   margin: 0;
@@ -246,13 +246,13 @@ body {
 #eddd2d yellow
 */
     a {
-      font-weight: 700;
-  color: #eddd2d;
+      font-weight: 900;
+  color: rgb(255, 191, 191);
   -webkit-transition: color 0.7s ease;
   -moz-transition: color 0.7s ease;
   transition: color 0.7s ease; }
   a:hover {
-    color: #1499ff;
+    color: #ec5b5b;
     -webkit-transition: color 0.7s ease;
     -moz-transition: color 0.7s ease;
     transition: color 0.7s ease; }
