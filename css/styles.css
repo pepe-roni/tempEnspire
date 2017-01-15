@@ -324,26 +324,26 @@ body {
   background-position: 50%;
   z-index: 0;
   opacity: 0;
-  -webkit-animation: fade-out 9s infinite both;
-  -moz-animation: fade-out 9s infinite both;
-  animation: fade-out 9s infinite both;
+  -webkit-animation: fade-out 15s infinite both;
+  -moz-animation: fade-out 15s infinite both;
+  animation: fade-out 15s infinite both;
   background-image: url(../images/banner-1-sm.jpg); }
   @media (min-width: 58em) {
     .sect-banner ul.kf-slider li {
       background-image: url(../images/banner-1.jpg); } }
 .sect-banner ul.kf-slider li:nth-child(2) {
   background-image: url(../images/banner-2-sm.jpg);
-  -webkit-animation-delay: 3s;
-  -moz-animation-delay: 3s;
-  animation-delay: 3s; }
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  animation-delay: 5s; }
   @media (min-width: 58em) {
     .sect-banner ul.kf-slider li:nth-child(2) {
       background-image: url(../images/banner-2.jpg); } }
 .sect-banner ul.kf-slider li:nth-child(3) {
   background-image: url(../images/banner-3-sm.jpg);
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  animation-delay: 6s; }
+  -webkit-animation-delay: 10s;
+  -moz-animation-delay: 10s;
+  animation-delay: 10s; }
   @media (min-width: 58em) {
     .sect-banner ul.kf-slider li:nth-child(3) {
       background-image: url(../images/banner-3.jpg); } }
