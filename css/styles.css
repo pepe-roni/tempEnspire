@@ -467,3 +467,54 @@ body {
           background-image: url(../images/banner-3.jpg); }
         100% {
           background-image: url(../images/banner-1.jpg); } }
+
+
+/*email sub*/
+.box{
+  width: 11vh;
+  height: 5vh;
+  position: absolute;
+  top:70vh;
+  left: 18vh;
+  font-family:mainFont;
+  font-size: 2vh;
+
+}
+
+.box input{
+  top:70vh;
+  left: 18vh;
+  display:block;
+  width:40vh;
+  height: 5vh;
+  background:rgba(0,0,0,0.2);
+  color:#fff;
+    position: absolute;
+  border:0;
+}
+.box input:focus,.box input:active,.box button:focus,.box button:active{
+  outline:none;
+}
+.box button{
+  background:#2ecc71;
+  border:0;
+  color:#fff;
+  padding:10px;
+  font-family: "mainFont";
+  font-size:20px;
+  width:330px;
+  margin:20px auto;
+  display:block;
+  cursor:pointer;
+}
+.box button:active{
+  background:#27ae60;
+}
+.box p{
+  font-size:14px;
+  text-align:center;
+}
+.box p span{
+  cursor:pointer;
+  color:#666;
+}
