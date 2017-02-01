@@ -28,12 +28,12 @@ html{
   src:url("../fonts/iconFont/PWHandySocialIcons.ttf");
 }
 button{
-  -webkit-transition: color 0.7s ease;
-  -moz-transition: color 0.7s ease;
-  transition: color 0.7s ease;
-  -webkit-transition: background 1.2s ease;
-  -moz-transition: background 1.2s ease;
-  transition: background 1.2s ease;
+  -webkit-transition: color 0.7s ease-in;
+  -moz-transition: color 0.7s ease-in;
+  transition: color 0.7s ease-in;
+  -webkit-transition: background 1.2s ease-out;
+  -moz-transition: background 1.2s ease-out;
+  transition: background 1.2s ease-out;
 
   width: 15vh;
   height: 6vh;
@@ -63,6 +63,25 @@ button:hover{
   -webkit-transition: background 0.7s ease;
   -moz-transition: background 0.7s ease;
   transition: background 0.7s ease;
+}
+
+button:focus{
+  font-size: 0;
+  -webkit-transition: font-size 0.7s ease-in;
+  -moz-transition: font-size 0.7s ease-in;
+  transition: font-size 0.7s ease-in;
+  background: rgb(114, 99, 99);
+  -webkit-transition: background 0.7s ease;
+  -moz-transition: background 0.7s ease;
+  transition: background 0.7s ease;
+}
+
+jQuery('button').click(function(){
+   jQuery(this).toggleClass('active');
+});
+
+input{
+
 }
 nav {
   width: 11vh;
