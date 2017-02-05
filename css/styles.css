@@ -27,11 +27,8 @@ html{
   font-family: "iconFont";
   src:url("../fonts/iconFont/PWHandySocialIcons.ttf");
 }
+
 input{
-
-}
-
-button{
   -webkit-transition: color 0.7s ease-in;
   -moz-transition: color 0.7s ease-in;
   transition: color 0.7s ease-in;
@@ -52,13 +49,13 @@ button{
   border:0;
 
 }
-button:active,
-button:hover {
+input:active,
+input:hover {
   outline: 0;
 }
 
 
-button:hover{
+input:hover{
   color: rgb(255, 191, 191);
   -webkit-transition: color 0.7s ease;
   -moz-transition: color 0.7s ease;

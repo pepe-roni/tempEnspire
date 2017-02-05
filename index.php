@@ -1,3 +1,4 @@
+
 <html>
 <head>
   <meta charset="utf-8">
@@ -47,10 +48,12 @@ and sharing stories with the elderly and homeless through the language of music.
        Facebook Group </a></a>
 -->
   <p>
-    <form method="post" action="contact.php">
-    <textarea name="message"></textarea>
-    <input type="submit">
-    </form>
+    <form action="https://formspree.io/contacy@enspiremusic.org"
+      method="POST">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
+
 </p>
 <br>
 <p style="font-size:3vh;"> </p>
